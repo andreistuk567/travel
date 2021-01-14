@@ -1,0 +1,25 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+.box{
+  font-style: 13px;
+  padding: 0;
+}
+.test{
+ text-decoration: none;
+}
+.test{
+  margin: 0;
+}
+.item{
+  padding-bottom: 10px;
+  text-align: left;
+}
+.img{
+  display: flex;
+}
