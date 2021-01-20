@@ -1,0 +1,13 @@
+$text: #161616;
+$pink: #d03958;
+$grey: #e3d5b8;
+
+@mixin f700 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+@mixin f400 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}

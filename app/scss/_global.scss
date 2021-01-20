@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: $text;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1030px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body {
+  font-family: PTSerif-Regular;
+  font-weight: 400;
+  color: $text;
+  font-size: 20px;
+  line-height: 28px;
+}
+.title{
+  font-size: 50px;
+  line-height: 80px;
+  color: $text;
+}
+
+.content {
+  min-height: calc(100vh - 80px);
+}
